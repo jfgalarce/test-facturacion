@@ -1,11 +1,11 @@
 <?php
 class Database
 {
-  private $host = '172.17.0.3';
-  private $port = '5432';
-  private $dbname = 'db_test';
-  private $user = 'user';
-  private $pass = 'password';
+  private $host = '172.17.0.3';   // Cambiar por la IP o hostname correcto
+  private $port = '5432';         // Cambiar por el puerto correcto si es diferente
+  private $dbname = 'db_test';    // Cambiar por el nombre de la base de datos
+  private $user = 'user';         // Cambiar por el usuario de la base de datos
+  private $pass = 'password';     // Cambiar por la contraseña del usuario
   private $pdo;
 
   public function __construct()
